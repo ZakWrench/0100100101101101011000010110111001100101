@@ -1,0 +1,23 @@
+question: wach instance weighting is equivalent to weighted loss function, for example logreg to keep it simple. w douk les params f scikitlearn(sample_weight and class_weight) wach finalement sa revient au meme. logically dik sample_weight hia instance weighting, w dik class_weight ach kadir? wach kat7kem f loss function wach achno kadir bdept. is it the same thing or different. that what I wanna know.
+
+1- Is instance weighting is equivalent to weighted loss function (for logistic regression for example)? 
+    1-1-Bard answer: 
+Yes, instance weighting is equivalent to weighted loss function (for logistic regression for example).
+The two techniques are equivalent in the sense that they both achieve the same goal of adjusting the importance of each training example. However, there are some differences in how they are implemented. Instance weighting is typically implemented by modifying the training algorithm to take weights into account. Weighted loss function is typically implemented by modifying the loss function itself to take weights into account.
+the two implementations are very similar. The main difference is that the instance weighting implementation requires you to explicitly assign weights to the examples, while the weighted loss function implementation does this automatically for you.
+
+Here is a list of algorithms/models that can utilize both weighted instances and weighted loss functions:
+Logistic regression, Linear regression, Support vector machines (SVMs), Decision trees, Random forests,Gradient boosting machines.
+
+In general, any machine learning algorithm that can handle weighted data can be used with instance weighting and weighted loss functions.
+
+    1-2-Interwebz:
+https://stats.stackexchange.com/questions/44776/logistic-regression-with-weighted-instances
+https://www.reddit.com/r/MachineLearning/comments/gx5z54/d_weighted_loss_functions_vs_weighted_sampling/
+https://www.reddit.com/r/MachineLearning/comments/6czlty/d_upsampling_vs_weighting_whats_the_best_way_to/
+
+
+
+
+
+
